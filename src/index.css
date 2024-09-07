@@ -23,3 +23,8 @@ body {
   width: 105px;
   height: 105px;
 }
+
+.game{
+  display: flex;
+  gap: 1rem;
+}
