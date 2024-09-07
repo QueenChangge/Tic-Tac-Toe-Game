@@ -99,8 +99,8 @@ export default function Game(){
 
 function calculateWinner(squares) {
   const lines = [
-    [0, 1, 2],
     [3, 4, 5],
+    [0, 1, 2],
     [6, 7, 8],
     [0, 3, 6],
     [1, 4, 7],
@@ -114,8 +114,7 @@ function calculateWinner(squares) {
 
     if(squares[a] && squares[a] === squares[b] && squares[c]){
       return squares[a];
-    } else{
-      return false;
-    }
+    } 
   }
+  return false;
 }
